@@ -1,14 +1,11 @@
 import "./App.css";
-import Header from "./components/Header";
-import Article from "./components/Article";
+import Homepage from "./pages/Index";
 
 function App() {
 	return (
-    <div className="App">
-      <Article name="Aa" titles={["hai", "hi", "he"]} />
-      <br></br>
-      <Article name="Nn" titles={["ho", "hei", "hu"]} />
-    </div>
+		<div className="App">
+			<Homepage />
+		</div>
 	);
 }
 
